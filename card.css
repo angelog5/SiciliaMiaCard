@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: violet;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  border-radius: 16px;
+  width: 750px;
+  overflow: hidden;
+}
+
+.left {
+  background-color: blue;
+  padding: 20px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+  padding: 20px;
+  width: 70%;
+  background-color: white;
+  gap: 20px;
+}
+
+.chapters {
+  background-color: transparent;
+}
+
+.continue {
+  width: 150px;
+}
